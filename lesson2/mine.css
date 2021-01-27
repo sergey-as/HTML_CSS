@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.heading-2 {
+    background: cornflowerblue;
+    text-align: center;
+}
+
+h2 {
+    background: coral;
+    text-align: right;
+}
+
+.justify20 {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+
+#brd {
+    border: 5px solid gold;
+    color: red;
+}
+
+.target {
+    background: silver;
+    color: gold;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
