@@ -1,0 +1,38 @@
+.container {
+    background: silver;
+}
+
+#header {
+    height: 100px;
+    background: aquamarine;
+}
+
+#menu {
+    width: 30%;
+    height: 200px;
+    background: fuchsia;
+    float: left;
+}
+
+.footer {
+    height: 150px;
+    background: burlywood;
+}
+
+.post {
+    height: 100px;
+    background: lawngreen;
+    /*float: left;*/
+}
+
+.rigth {
+    width: 70%;
+    float: left;
+}
+
+.clear {
+    /*height: 20px;*/
+    /*background: red;*/
+    clear: both;
+}
+
