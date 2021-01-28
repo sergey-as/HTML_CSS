@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+.container {
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    background: aquamarine;
+}
+
+.middle {
+    background: navy;
+    display: flex;
+    justify-content: stretch;
+}
+
+.menu {
+    width: 30%;
+    /*height: 200px;*/
+    background: fuchsia;
+}
+
+.rigth {
+    width: 70%;
+    background: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    box-sizing: border-box;
+}
+
+.post1 {
+    height: 50%;
+    background: lawngreen;
+}
+
+.post2 {
+    height: 50%;
+    background: lawngreen;
+}
+
+.footer {
+    background: burlywood;
+}
