@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background: silver;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: aqua;
+            height: 60px;
+        }
+
+        .middle {
+            display: flex;
+            flex-direction: row;
+            height: 400px;
+        }
+
+        .hero-sidebar {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+
+        .mine-extra-content {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+
+        .hero {
+            background: plum;
+            height: 40%;
+        }
+
+        .sidebar {
+            background: greenyellow;
+            height: 60%;
+        }
+
+        .mine-content {
+            background: gold;
+            height: 80%;
+        }
+
+        .extra-content {
+            background: gray;
+            height: 20%;
+        }
+
+        .related {
+            display: flex;
+            flex-direction: row;
+            height: 150px;
+        }
+
+        .related-images {
+            background: green;
+            width: 75%;
+        }
+
+        .related-posts {
+            background: lightpink;
+            width: 25%;
+        }
+
+        .footer {
+            background: orange;
+            height: 60px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">header</div>
+
+    <div class="middle">
+        <div class="hero-sidebar">
+            <div class="hero">hero</div>
+            <div class="sidebar">sidebar</div>
+        </div>
+        <div class="mine-extra-content">
+            <div class="mine-content">mine-content</div>
+            <div class="extra-content">extra-content</div>
+        </div>
+    </div>
+
+    <div class="related">
+        <div class="related-images">related-images</div>
+        <div class="related-posts">related-posts</div>
+    </div>
+
+    <div class="footer">footer</div>
+
+</div>
+</body>
+</html>
