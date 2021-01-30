@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.father {
+    width: 700px;
+    height: 700px;
+    background: silver;
+    /*background:url("../lesson5/img/Bart_Simpson_200px.png");*/
+    position: relative;
+    left: 100px;
+}
+.primary {
+    background: #52b3fa;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /*top: 1000px;*/
+    /*left: 1000px;*/
+}
+
+.danger {
+    background: #ea5050;
+}
+
+.up {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: tomato;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
