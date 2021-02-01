@@ -8,18 +8,18 @@
 }
 
 .header_top {
-    display: flex;
-    padding: 0 100px;
-    height: 89px;
+    height: 92px;
     background-color: #f9f9f9;
-    border-bottom: 1px solid #3298f2;
+    padding: 0 100px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #3298f2;
 }
 
 .header_nav {
     display: flex;
-    column-gap: 33px;
+    column-gap: 30px;
 }
 
 .header_nav a {
@@ -51,7 +51,6 @@
 
 .header_main {
     padding: 94px 102px 153px 244px;
-    width: 650px;
     display: flex;
     justify-content: space-between;
     position: relative;
