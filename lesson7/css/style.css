@@ -202,5 +202,41 @@
     color: #ffffff;
     size: 25px;
 
-    /*transform: scale();*/
+    /*transition: 1s; !* Время перехода *!*/
+    /*transform: scale(1.4); !* Масштабируем *!*/
+}
+
+.button_mobile {
+    width: 60px;
+    height: 60px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button_mobile span {
+    position: relative;
+    width: 80%;
+    height: 7px;
+    border-radius: 6px;
+    background-color: #3298f2;
+}
+
+.button_mobile span::before, .button_mobile span::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #3298f2;
+    display: block;
+    border-radius: 6px;
+}
+
+.button_mobile span::before {
+    top: -12px;
+}
+
+.button_mobile span::after {
+    bottom: -12px;
 }

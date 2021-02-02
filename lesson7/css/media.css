@@ -1,0 +1,10 @@
+@media screen and (max-width: 900px) {
+    .header-text{
+        color: red;
+    }
+}
+@media (min-width: 901px) and (max-width: 1000px) {
+    .header-text{
+        color: #77d451;
+    }
+}
