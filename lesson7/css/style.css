@@ -82,7 +82,6 @@
 }
 
 .header-text {
-    width: 575px;
     height: 178px;
     font-weight: 500;
     font-size: 16px;
@@ -175,6 +174,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    transition: 1s; /* Время перехода */
+}
+
+/*.play_wrap:hover, .play_content:hover, .play:hover {*/
+.play_wrap:hover {
+    transform: scale(1.4); /* Масштабируем */
 }
 
 .play_wrap {
@@ -239,4 +244,15 @@
 
 .button_mobile span::after {
     bottom: -12px;
+}
+
+.video {
+    display: none;
+    width: 97%;
+    height: 317px;
+    background-color: #c4c4c4;
+    border-radius: 6px;
+    position: absolute;
+    bottom: -150px;
+    left: 1.5px;
 }
