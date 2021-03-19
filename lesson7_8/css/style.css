@@ -211,6 +211,12 @@
     /*transform: scale(1.4); !* Масштабируем *!*/
 }
 
+
+
+
+
+
+/*button_mobile*/
 .button_mobile {
     width: 60px;
     height: 60px;
@@ -226,6 +232,7 @@
     height: 7px;
     border-radius: 6px;
     background-color: #3298f2;
+    transition: background 300ms;
 }
 
 .button_mobile span::before, .button_mobile span::after {
@@ -239,12 +246,38 @@
 }
 
 .button_mobile span::before {
-    top: -12px;
+    top: -15px;
+    transition-property: top, transform;
+    transition-delay: 300ms, 0ms;
+    transition-duration: 300ms, 300ms;
 }
 
 .button_mobile span::after {
-    bottom: -12px;
+    bottom: -15px;
+    transition-property: bottom, transform;
+    transition-delay: 300ms, 0ms;
+    transition-duration: 300ms, 300ms;
 }
+
+.active.button_mobile span {
+    background: none;
+}
+.active.button_mobile span::before {
+    transition-delay: 0ms, 300ms;
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.active.button_mobile span::after {
+    transition-delay: 0ms, 300ms;
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+/*End button_mobile*/
+
+
+
+
 
 .video {
     display: none;
